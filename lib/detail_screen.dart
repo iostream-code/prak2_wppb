@@ -17,8 +17,8 @@ class DetailScreen extends StatelessWidget {
                 "Surabaya Submarine Monument",
                 textAlign: TextAlign.center,
                 style: TextStyle(
+                  fontFamily: 'MavenPro',
                   fontSize: 30.0,
-                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),

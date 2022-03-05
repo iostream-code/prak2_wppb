@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Contacts',
-      theme: ThemeData(),
+      theme: ThemeData(
+        fontFamily: 'MavenPro',
+      ),
       home: const DetailScreen(),
     );
   }
